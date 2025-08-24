@@ -237,7 +237,7 @@ document.getElementById("transaction-btn").addEventListener('click', function(){
     for(const data of transactionData){
         const div = document.createElement('div');
         div.innerHTML = `
-             <div class="max-w-[402px] mx-auto mt-4">
+             <div class=" mx-auto mt-4">
                 <div class="flex justify-between items-center bg-white px-[16px] py-[13px] rounded-xl">
                     <div class="flex justify-between items-center gap-2">
                         <div class="p-[11px] rounded-full bg-[#F4F5F7]">
@@ -260,7 +260,7 @@ document.getElementById("transaction-btn").addEventListener('click', function(){
 
 // function for log out
 document.getElementById("log-out-btn").addEventListener('click', function(){
-    window.location.href = "./index1.html";
+    window.location.href = "./index.html";
 });
 
 

@@ -10,18 +10,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-[#F4F5F7] h-[100vh] flex flex-col justify-center items-center">
-    <div class="h-[150px] w-[330px] bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center"><img src="assets/Group.png" alt=""></div>
-    <form class="bg-white p-8 rounded-2xl w-[380px]">
-        <div>
-            <label class="font-semibold" for="">Mobile Number</label><br>
-            <input id="mobile-number" type="text" placeholder="Enter Your Number" class="input mt-3 rounded-3xl bg-[#F4F5F7]" />
-        </div>
-        <div class="mt-4">
-            <label class="font-semibold" for="">4 Digit Pin</label><br>
-            <input id="pin-number" type="text" placeholder="Enter 4 Digit Pin" class="input mt-3 rounded-3xl bg-[#F4F5F7]" />
-        </div>
-        <button id="login-btn" class="btn w-full mt-4 rounded-3xl bg-[#0874F2] text-white font-semibold text-[17px]">Login</button>
-    </form>
+    <!-- logo setup -->
+     <div class="h-[140px] w-[300px] bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center">
+        <img class="h-17" src="assets/Group.png" alt="">
+     </div border-2>
+    <!-- login form -->
+     <div class="w-[380px] px-6">
+        <form class="bg-white p-6 rounded-xl" action="">
+            <div class="">
+                <label class="font-medium " for="">Mobile Number</label><br>
+                <input id="mobile-number" type="text" placeholder="Enter Your Number"
+                    class="input mt-3 rounded-3xl bg-[#F4F5F7] w-full" />
+            </div>
+            <div class="mt-4">
+                <label class="font-medium " for="">4 Digit Pin
+                </label><br>
+                <input id="pin-number" type="text" placeholder="Enter 4 Digit Pin"
+                    class="input mt-3 rounded-3xl bg-[#F4F5F7] w-full" />
+            </div>
+            <button id="login-btn" class="btn w-full mt-4 rounded-3xl bg-[#0874F2] text-white font-semibold text-[17px]">Login</button>
+
+        </form>
+        
+     </div>
 
     <!-- javascript -->
     <script src="login.js"></script>

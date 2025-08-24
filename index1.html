@@ -13,11 +13,11 @@
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-[#F4F5F7]">
+<body class="bg-[#F4F5F7] h-[100vh] p-4">
     <!-- nav section -->
-    <nav class=" max-w-[402px] mx-auto min-h-[50px] flex justify-between items-center py-3">
+    <nav class=" max-w-[646px]  mx-auto min-h-[50px] flex justify-between items-center py-3">
         <div class="flex items-center gap-2">
-            <img class="h-12 " src="./assets/Group.png" alt="">
+            <img class="h-12 " src="./assets/payoo.png" alt="">
             <div>
                 <h2 class="font-bold text-[18px]">$<span id="balance">45000</span></h2>
                 <p class="text-[#080808] opacity-[50%]">Available Balance</p>
@@ -27,16 +27,15 @@
             <button id="log-out-btn" class="btn border-1 text-[#080808] opacity-[50%] bg-white shadow-lg"><i class="fa-solid fa-arrow-right-from-bracket rotate-180"></i>Log Out</button>
         </div>
     </nav>
-     <hr class="text-[#080808] opacity-[50%]">
-
-     <!-- title section -->
-     <div class="max-w-[402px] mx-auto mt-7">
+     <hr class="text-[#080808] opacity-[50%] max-w-[646px] mx-auto">
+       <!-- welcome section  -->
+     <div class="max-w-[646px] mx-auto mt-7">
         <h2 class="font-bold text-2xl">🔥 Welcome to Payooo!</h2>
         <p class="text-[#080808] opacity-[50%] mt-3">Enjoy easy and convenient financial services with us. Cashout charge is low and</p>
      </div>
 
      <!-- feature section -->
-     <div class=" mt-6 max-w-[402px] mx-auto min-h-[200px] grid grid-cols-3 gap-3">
+     <div class=" mt-6 max-w-[646px] mx-auto min-h-[200px] grid grid-cols-3 gap-3">
 
         <div id="add-money-btn" class="form-btn rounded-xl  text-[14px] border-2 border-gray-300 text-center py-4 px-3  bg-white ">
             <img class="mx-auto mb-2" src="./assets/wallet1.png" alt="">
@@ -77,10 +76,10 @@
     
     <!-- form section -->
      <!-- add money -->
-    <div  id="add-money-section" class="form max-w-[402px] mx-auto pb-20 mt-8">
+    <div  id="add-money-section" class="form max-w-[646px] mx-auto pb-20 mt-8">
         <h1 class="font-semibold text-lg">Add Money</h1>
         <div class="mt-4">
-            <form action="" class="bg-white p-6 rounded-2xl w-[402px]">
+            <form action="" class="bg-white p-6 rounded-2xl ">
                 <label for="" class="font-medium text-[#080808] opacity-[70%]">Select A Bank</label> <br>
                 <select id="bank-name" class="select input mt-3 rounded-3xl bg-[#F4F5F7] w-[100%]">
                     <option>Select Bank</option>
@@ -109,10 +108,10 @@
     </div>
 
     <!-- cash out -->
-    <div style="display: none;" id="cash-out-section" class="form max-w-[402px] mx-auto pb-20 mt-8">
+    <div style="display: none;" id="cash-out-section" class="form max-w-[646px] mx-auto pb-20 mt-8">
         <h1 class="font-semibold text-lg">Cash Out</h1>
         <div class="mt-4">
-            <form action="" class="bg-white p-6 rounded-2xl w-[402px]">
+            <form action="" class="bg-white p-6 rounded-2xl ">
     
                 <div class="">
                     <label class="font-medium text-[#080808] opacity-[70%]" for="">Agent Number</label><br>
@@ -138,10 +137,10 @@
     </div>
 
     <!-- transfer -->
-    <div style="display: none;" id="transfer-section" class="form max-w-[402px] mx-auto pb-20 mt-8">
+    <div style="display: none;" id="transfer-section" class="form max-w-[646px] mx-auto pb-20 mt-8">
         <h1 class="font-semibold text-lg">Transfer Money</h1>
         <div class="mt-4">
-            <form action="" class="bg-white p-6 rounded-2xl w-[402px]">
+            <form action="" class="bg-white p-6 rounded-2xl ">
     
                 <div class="">
                     <label class="font-medium text-[#080808] opacity-[70%]" for="">User Account Number</label><br>
@@ -167,10 +166,10 @@
     </div>
 
     <!-- get bonus -->
-    <div style="display: none;" id="bonus-section" class="form max-w-[402px] mx-auto pb-20 mt-8">
+    <div style="display: none;" id="bonus-section" class="form max-w-[646px] mx-auto pb-20 mt-8">
         <h1 class="font-semibold text-lg">Get Bonus</h1>
         <div class="mt-4">
-            <form action="" class="bg-white p-6 rounded-2xl w-[402px]">
+            <form action="" class="bg-white p-6 rounded-2xl ">
     
                 <div class="mt-4">
                     <label class="font-medium text-[#080808] opacity-[70%]" for="">Enter Bonus Coupon</label><br>
@@ -186,10 +185,10 @@
     </div>
 
     <!-- pay bill section -->
-    <div style="display: none;" id="pay-bill-section" class="form max-w-[402px] mx-auto pb-20 mt-8">
+    <div style="display: none;" id="pay-bill-section" class="form max-w-[646px] mx-auto pb-20 mt-8">
         <h1 class="font-semibold text-lg">Pay Bill</h1>
         <div class="mt-4">
-            <form action="" class="bg-white p-6 rounded-2xl w-[402px]">
+            <form action="" class="bg-white p-6 rounded-2xl ">
                 <label for="" class="font-medium text-[#080808] opacity-[70%]">Select to Pay</label> <br>
                 <select class="select input mt-3 rounded-3xl bg-[#F4F5F7] w-[100%]">
                     <option>Select Bill</option>
@@ -221,10 +220,10 @@
     </div>
 
     <!-- mobile recharge section -->
-    <div style="display: none;" id="recharge-section" class="form max-w-[402px] mx-auto pb-20 mt-8">
+    <div style="display: none;" id="recharge-section" class="form max-w-[646px] mx-auto pb-20 mt-8">
         <h1 class="font-semibold text-lg">Mobile Recharge</h1>
         <div class="mt-4">
-            <form action="" class="bg-white p-6 rounded-2xl w-[402px]">
+            <form action="" class="bg-white p-6 rounded-2xl ">
     
                 <div class="mt-4">
                     <label class="font-medium text-[#080808] opacity-[70%]" for="">Enter Your Number</label><br>
@@ -252,11 +251,11 @@
 
     <!-- transaction section -->
      <div style="display: none;" id="transaction-section" class="form pb-10">
-        <div class="max-w-[402px] mx-auto mt-8 flex justify-between items-center">
+        <div class="max-w-[646px] mx-auto mt-8 flex justify-between items-center">
             <h1 class="font-semibold text-lg">Transaction History</h1>
             <p class="text-[#080808] opacity-[70%] text-[14px]">View All</p>
         </div>
-        <div id="transaction-data">
+        <div id="transaction-data" class="max-w-[646px] mx-auto">
            
         </div>
      </div>
