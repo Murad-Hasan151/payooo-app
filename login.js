@@ -9,7 +9,7 @@ document.getElementById("login-btn").addEventListener('click', function(e){
     const pinNumberValueConverted = parseInt(pinNumberValue);
 
     if(mobileNumberValueConverted === mobileNumber && pinNumberValueConverted === pinNumber){
-        window.location.href = "./home.html";
+        window.location.href = "./index1.html";
     }
     else{
         alert("Invalid Number or Pin");
