@@ -260,7 +260,7 @@ document.getElementById("transaction-btn").addEventListener('click', function(){
 
 // function for log out
 document.getElementById("log-out-btn").addEventListener('click', function(){
-    window.location.href = "./login.html";
+    window.location.href = "./index1.html";
 });
 
 
